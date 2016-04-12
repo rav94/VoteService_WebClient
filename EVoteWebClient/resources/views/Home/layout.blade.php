@@ -6,14 +6,15 @@
 </head>
 
 <body>
-    @include('Home.partials.navigation')
+    {{--@include('Home.partials.navigation')--}}
     @yield('content')
-</body>
 
 <!-- Footer -->
 <footer>
     @include('Home.partials.footer')
 </footer>
+
+</body>
 
 @include('Home.partials.script')
 

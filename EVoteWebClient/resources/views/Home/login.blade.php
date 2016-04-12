@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><span><img src="img/logo.png" alt="EVote Logo"></span>&nbsp;&nbsp;EVote Login</a>
+            <a class="navbar-brand" href="../">&nbsp;&nbsp;EVote Login</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,7 +50,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="login-form" action="" method="post" role="form" style="display: block;">
+                            <form id="login-form" action="../user/log" method="post" role="form" style="display: block;">
                                 <div class="form-group">
                                     <input  autocomplete="off" type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email" value="" required>
                                 </div>
@@ -67,7 +67,7 @@
                                 </div>
 
                             </form>
-                            <form id="register-form" action="" method="post" role="form" style="display: none;">
+                            <form id="register-form" action="../user/create" method="post" role="form" style="display: none;">
                                 <div class="form-group">
                                     <input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Username" value="" required>
                                 </div>
@@ -80,6 +80,7 @@
                                 <div class="form-group">
                                     <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password" required>
                                 </div>
+                                <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">

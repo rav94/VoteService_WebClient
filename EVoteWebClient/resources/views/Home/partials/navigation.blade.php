@@ -21,7 +21,10 @@
                     <a href="#services">Services</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact"></a>
+                </li>
+                <li>
+                    <a href="../user/login">Login</a>
                 </li>
             </ul>
         </div>
