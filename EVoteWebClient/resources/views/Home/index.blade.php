@@ -29,7 +29,7 @@
                     <a href="../viewPoll">View Live Polls</a>
                 </li>
                 <li>
-                    <a href="../user/login">Login</a>
+                    <a href="../login">Login</a>
                 </li>
             </ul>
         </div>

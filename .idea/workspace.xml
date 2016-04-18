@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d00d344-3dcb-4489-9ef9-5ed8716c78e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php" afterPath="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php" afterPath="$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/index.blade.php" afterPath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/partials/footer.blade.php" afterPath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/partials/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php" afterPath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php" afterPath="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sh.exe.stackdump" afterPath="$PROJECT_DIR$/sh.exe.stackdump" />
     </list>
@@ -30,39 +34,26 @@
       <file leaf-file-name="addPoll.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewMyPolls.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewMyPolls.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewPoll.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="viewPoll.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PollController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="149">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <marker date="1461006067698" expanded="true" signature="6085:6166" placeholder="..." />
+                <marker date="1461006067698" expanded="true" signature="6085:6169" placeholder="..." />
+                <marker date="1461006067698" expanded="true" signature="6085:6200" placeholder="..." />
+                <marker date="1461006067698" expanded="true" signature="6085:6207" placeholder="..." />
+                <marker date="1461006067698" expanded="true" signature="6104:6166" placeholder="..." />
+                <marker date="1461006067698" expanded="true" signature="6111:6166" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,38 +61,8 @@
       <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="63" column="102" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="128" column="117" selection-start-line="128" selection-start-column="117" selection-end-line="128" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/partials/script.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="523">
+              <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -110,8 +71,18 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="404">
+              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PollController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="59" column="24" selection-start-line="58" selection-start-column="8" selection-end-line="59" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -136,17 +107,17 @@
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/Requests/PollRequest.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/partials/navigation.blade.php" />
-        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/layout.blade.php" />
-        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/Admin/addPoll.blade.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/Client/viewPoll.blade.php" />
-        <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewMyPolls.blade.php" />
-        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/index.blade.php" />
+        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php" />
+        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php" />
+        <option value="$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php" />
       </list>
     </option>
   </component>
@@ -190,8 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -404,6 +375,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EVoteWebClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EVoteWebClient" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EVoteWebClient" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -411,7 +408,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;ro&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php&#10;ro&#9;FILE&#9;file://C:/xampp/htdocs/Distributed App/EVoteWebClient/EVoteWebClient/app/Http/routes.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -474,24 +471,29 @@
       <workItem from="1460093707575" duration="7120000" />
       <workItem from="1460137169195" duration="249000" />
       <workItem from="1460342872362" duration="36335000" />
-      <workItem from="1460434757214" duration="12168000" />
+      <workItem from="1460434757214" duration="14243000" />
+      <workItem from="1460525334882" duration="7323000" />
+      <workItem from="1460821840753" duration="17000" />
+      <workItem from="1460869705273" duration="22000" />
+      <workItem from="1460979542756" duration="664000" />
+      <workItem from="1461001553052" duration="4558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55872000" />
+    <option name="totallyTimeSpent" value="70531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26399395" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441754" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30114567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,6 +522,108 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewMyPolls.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -532,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1989">
           <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -653,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,66 +803,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewMyPolls.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="63" column="102" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,15 +814,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewMyPolls.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="128" column="117" selection-start-line="128" selection-start-column="117" selection-end-line="128" selection-end-column="117" />
+        <state relative-caret-position="323">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/app/Http/Controllers/PollController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="59" column="24" selection-start-line="58" selection-start-column="8" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/addPoll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVoteWebClient/resources/views/Home/viewPoll.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1461006067698" expanded="true" signature="6085:6166" placeholder="..." />
+            <marker date="1461006067698" expanded="true" signature="6085:6169" placeholder="..." />
+            <marker date="1461006067698" expanded="true" signature="6085:6200" placeholder="..." />
+            <marker date="1461006067698" expanded="true" signature="6085:6207" placeholder="..." />
+            <marker date="1461006067698" expanded="true" signature="6104:6166" placeholder="..." />
+            <marker date="1461006067698" expanded="true" signature="6111:6166" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

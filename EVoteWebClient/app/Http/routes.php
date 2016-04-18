@@ -23,18 +23,22 @@ Route::get('/viewPoll', function () {
     return view('Home.viewPoll', ['polls' => $allPoll]);
 });
 
-
-//User Routes --> Admin Side
-Route::get('user', 'UserController@index');
-Route::post('user/create','UserController@Create');
-Route::post('user/log','UserController@Log');
-Route::get('user/login','UserController@Login');
-Route::get('user/logout','UserController@Logout');
-Route::get('user/viewMyPoll', function() {
-    return view('Home.viewMyPolls');
+Route::get('login', function()
+{
+    return view('Home.login');
 });
 
-//Poll Routes --> Client Side/ Admin Side
+
+//UserController
+Route::post('user/createUser', 'UserController@CreateUser');
+
+
+//PollController
+Route::get('addPoll', function()
+{
+    return view('Home.addPoll');
+});
 Route::post('poll/createPoll', 'PollController@CreatePoll');
-Route::get('findPollById', 'PollController@GetAllPollById');
 Route::get('findPolls', 'PollController@GetAllPoll');
+Route::get('findPollAnswer/{id}', 'PollController@GetAnswerByPoll');
+

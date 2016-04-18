@@ -23,7 +23,7 @@
                     <a href="../viewPoll">View Live Polls</a>
                 </li>
                 <li>
-                    <a href="../user/login">Login</a>
+                    <a href="../login">Login</a>
                 </li>
             </ul>
         </div>
@@ -62,7 +62,7 @@
                             <h3 id="pollText" class="panel-title">Please Select a Poll</h3>
                         </div>
                         <div class="panel-body">
-                            <ul class="list-group">
+                            <ul class="list-group" id="list">
                                 <li class="list-group-item" id="option1">
                                     <div class="radio">
                                         <label>
@@ -133,7 +133,29 @@
             var selectedText = info.options[info.selectedIndex].innerHTML;
             var selectedValue = info.value;
             pollText.innerHTML = selectedText;
+
+            $.ajax({
+                dataType: 'json',
+                url: "../findPollAnswer/"+selectedValue,
+                type: "get",
+                success: function (json) {
+                    $("#list").html("");
+                    for(key in json)
+                    {
+                        $("#list").append("<li class='list-group-item' id='option1'><div class='radio'><label><input type='radio' name='option' value='' id='answer1'> "+json[key].AnswerOne+" </label> </div> </li>");
+                        $("#list").append("<li class='list-group-item' id='option2'><div class='radio'><label><input type='radio' name='option' value='' id='answer2'> "+json[key].AnswerTwo+" </label> </div> </li>");
+                        $("#list").append("<li class='list-group-item' id='option3'><div class='radio'><label><input type='radio' name='option' value='' id='answer3'> "+json[key].AnswerThree+" </label> </div> </li>");
+                        $("#list").append("<li class='list-group-item' id='option4'><div class='radio'><label><input type='radio' name='option' value='' id='answer4'> "+json[key].AnswerFour+" </label> </div> </li>");
+                    }
+                }
+            });
+
+
         }
+
+    </script>
+
+    <script>
 
     </script>
 

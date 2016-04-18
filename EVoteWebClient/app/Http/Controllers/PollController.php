@@ -41,14 +41,11 @@ class PollController extends Controller
 
         $result = file_get_contents($url.'/poll/create', false, $context);
 
-        if ($result == true)
+        if($result == true)
         {
-            return view('Home.login');
+            return redirect('../addPoll');
         }
-        else
-        {
-            echo ('Error in Creating the user!');
-        }
+
     }
 
     public function GetAllPollByUserId()
@@ -61,5 +58,11 @@ class PollController extends Controller
     {
         $allPoll = file_get_contents($this->serviceUri().'/poll/findPoll');
         return $allPoll;
+    }
+
+    public  function  GetAnswerByPoll($id)
+    {
+        $answers = file_get_contents($this->serviceUri().'/poll/getAnswerByPoll/'.$id);
+        return $answers;
     }
 }

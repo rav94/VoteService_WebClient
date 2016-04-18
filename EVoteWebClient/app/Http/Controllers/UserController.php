@@ -14,7 +14,7 @@ class UserController extends Controller
         return env('APP_URL');
     }
     
-    public function Create(UserRequest $request)
+    public function CreateUser(UserRequest $request)
     {
         $url = str_replace(" ", "%20", $this->serviceUri());
         $postdata = json_encode(
@@ -35,11 +35,11 @@ class UserController extends Controller
 
         $context = stream_context_create($opts);
 
-        $result = file_get_contents($url.'/user/create', false, $context);
+        $result = file_get_contents($url.'user/create', false, $context);
 
         if ($result == true)
         {
-            return view('Home.login');
+            return redirect('../');
         }
         else
         {
@@ -47,21 +47,24 @@ class UserController extends Controller
         }
     }
 
-    public function getAllUsers()
-    {
-        $userDetails = file_get_contents($this->serviceUri().'user/findUser');
-        return $userDetails;
-    }
-
-    public function Log()
-    {
-        $userDetails = file_get_contents($this->serviceUri().'/user/findUser');
-        return $userDetails;
-    }
-
-    public function LogIn()
-    {
-        return view ('Home.login');
-    }
+//    public function getAllUsers()
+//    {
+//        $userDetails = file_get_contents($this->serviceUri().'user/findUser');
+//        return $userDetails;
+//    }
+//
+//    public function Log(UserRequest $request)
+//    {
+//        $email =  $request->input('email');
+//        $password = $request->input('password');
+//
+//        $userDetails = file_get_contents($this->serviceUri().'/user/findUser');
+//
+//        $userData = json_decode($userDetails);
+//
+//        echo $userData;
+//    }
+//
+    
         
 }
