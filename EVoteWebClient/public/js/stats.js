@@ -1,12 +1,12 @@
 Morris.Bar({
     element: 'bar-example',
     data: [
-        { y: '2006', a: 100 },
-        { y: '2007', a: 75 },
-        { y: '2008', a: 50 },
-        { y: '2009', a: 75 },
+        { y: 'Answer1', a: 80 },
+        { y: 'Answer2', a: 15 },
+        { y: 'Answer3', a: 50 },
+        { y: 'Answer4', a: 60 },
     ],
     xkey: 'y',
-    ykeys: ['a', 'b'],
-    labels: ['Series A', 'Series B']
+    ykeys: ['a'],
+    labels: ['Answer Count']
 });

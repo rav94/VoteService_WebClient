@@ -56,46 +56,18 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
 
-                    <form role="form" method="post" action="#">
+                    <form role="form" method="post" action="../poll/createPollStat">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <h3 id="pollText" class="panel-title">Please Select a Poll</h3>
                         </div>
                         <div class="panel-body">
                             <ul class="list-group" id="list">
-                                <li class="list-group-item" id="option1">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="option" value="" id="answer1"> Excellent
-                                        </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" id="option2">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="option" value="" id="answer2"> Good
-                                        </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" id="option3">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="option" value="" id="answer3"> Satisfactory
-                                        </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" id="option4">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="option" value="" id="answer4"> Needs Improvement
-                                        </label>
-                                    </div>
-                                </li>
+                                <p>Please Select a Poll to View Answers!</p>
                             </ul>
                         </div>
                         <div class="panel-footer text-center">
                             <input type="submit" class="btn btn-primary btn-block btn-sm" name="vote-submit" id="vote-submit" value="Vote">
-                            <a href="#" class="small">View Result</a>
                         </div>
                     </div>
                     </form>
@@ -184,3 +156,33 @@
 {{--////                }--}}
 {{--////            })--}}
 {{--//        })--}}
+
+
+{{--<li class="list-group-item" id="option1">--}}
+    {{--<div class="radio">--}}
+        {{--<label>--}}
+            {{--<input type="radio" name="option" value="" id="answer1"> Excellent--}}
+        {{--</label>--}}
+    {{--</div>--}}
+{{--</li>--}}
+{{--<li class="list-group-item" id="option2">--}}
+    {{--<div class="radio">--}}
+        {{--<label>--}}
+            {{--<input type="radio" name="option" value="" id="answer2"> Good--}}
+        {{--</label>--}}
+    {{--</div>--}}
+{{--</li>--}}
+{{--<li class="list-group-item" id="option3">--}}
+    {{--<div class="radio">--}}
+        {{--<label>--}}
+            {{--<input type="radio" name="option" value="" id="answer3"> Satisfactory--}}
+        {{--</label>--}}
+    {{--</div>--}}
+{{--</li>--}}
+{{--<li class="list-group-item" id="option4">--}}
+    {{--<div class="radio">--}}
+        {{--<label>--}}
+            {{--<input type="radio" name="option" value="" id="answer4"> Needs Improvement--}}
+        {{--</label>--}}
+    {{--</div>--}}
+{{--</li>--}}
