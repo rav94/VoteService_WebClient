@@ -67,7 +67,7 @@
                                 </div>
                             </form>
 
-                            <form id="register-form" action="../user/createUser" method="post" role="form" style="display: none;">
+                            <form id="register-form" role="form" style="display: none;">
                                 <div class="form-group">
                                     <input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Username" value="" required>
                                 </div>
@@ -126,5 +126,25 @@
         });
     });
 </script>
+
+<Script>
+    $( '#register-form' ).on( 'submit', function(e) {
+        e.preventDefault();
+
+        var name = $(this).find('input[name=name]').val();
+        var email = $(this).find('input[name=email]').val();
+        var password = $(this).find('input[name=password]').val();
+        $.ajax({
+            dataType: 'json',
+            url: "../user/createUser",
+            type: "post",
+            data:  {name:name, email:email, password:password},
+            success: function (jman) {
+                console.log(jman);
+
+            }
+        });
+    });
+</Script>
 </body>
 </html>

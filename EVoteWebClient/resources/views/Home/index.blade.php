@@ -51,17 +51,6 @@
                     <h1>E-Vote</h1>
                     <h3>Create-Vote-Poll - Together!</h3>
                     <hr class="intro-divider">
-                    <ul class="list-inline intro-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -108,7 +97,7 @@
                 <p class="lead">Vote for your favourite polls and find out what others think!</p>
             </div>
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                <img class="img-responsive" src="img/dog.png" alt="">
+                <img class="img-responsive" src="img/poll_mobile.png" alt="">
             </div>
         </div>
 
@@ -149,19 +138,7 @@
             <div class="col-lg-6">
                 <h2>Connect with E-Vote Today!</h2>
             </div>
-            <div class="col-lg-6">
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
 
     </div>

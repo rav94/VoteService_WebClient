@@ -33,8 +33,10 @@ Route::get('/viewPollPage', function(){
 });
 
 
+
 //UserController
-Route::post('user/createUser', 'UserController@CreateUser'); //User Sign Up Function
+Route::post('user/createUser', 'UserController@Create'); //User Sign Up Function
+Route::post('user/log', 'UserController@Log'); 
 
 
 //PollController
@@ -48,7 +50,8 @@ Route::get('findPollAnswer/{id}', 'PollController@GetAnswerByPoll'); //Obtaining
 
 
 //Stat Controller
-Route::post('poll/createPollStat', 'StatController@CreatePollStat'); //Create Poll Statistics
+Route::get('poll/createPollStat', 'StatController@CreatePollStat'); //Create Poll Statistics
+Route::get('poll/updatePollStat', 'StatController@UpdatePollStat'); //Update Poll Statistics
 Route::get('findStats', 'StatController@GetAllStat'); //Obtaining All Available Statistics
 Route::get('findStatsById/{id}', 'StatController@GetStatById'); //Obtain Stat Based on Id
 Route::get('findStatByPoll/{id}', 'StatController@GetStatByPoll'); //Obtaining Stat Details By Poll Id.

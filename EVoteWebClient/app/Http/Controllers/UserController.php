@@ -16,35 +16,52 @@ class UserController extends Controller
     
     public function CreateUser(UserRequest $request)
     {
-        $url = str_replace(" ", "%20", $this->serviceUri());
-        $postdata = json_encode(
-            array(
-                'UserName' => $request->input('name'),
-                'UserEmail' => $request->input('email'),
-                'UserPassword' => $request->input('password')
-            )
-        );
+//        $url = str_replace(" ", "%20", $this->serviceUri());
+//        $postdata = json_encode(
+//            array(
+//                'UserName' => $request->input('name'),
+//                'UserEmail' => $request->input('email'),
+//                'UserPassword' => $request->input('password')
+//            )
+//        );
+//
+//        $opts = array('http' =>
+//            array(
+//                'method'  => 'POST',
+//                'header'  => 'Content-type: application/json',
+//                'content' => $postdata
+//            )
+//        );
+//
+//        $context = stream_context_create($opts);
+//
+//        $result = file_get_contents($url.'user/create', false, $context);
 
-        $opts = array('http' =>
-            array(
-                'method'  => 'POST',
-                'header'  => 'Content-type: application/json',
-                'content' => $postdata
-            )
-        );
+    }
 
-        $context = stream_context_create($opts);
-
-        $result = file_get_contents($url.'user/create', false, $context);
-
-        if ($result == true)
-        {
-            return redirect('../');
-        }
-        else
-        {
-            echo ('Error in Creating the user!');
-        }
+    public function a(UserRequest $request)
+   {
+//                $url = str_replace(" ", "%20", $this->serviceUri());
+//        $postdata = json_encode(
+//            array(
+//                'UserName' => $request->input('name'),
+//                'UserEmail' => $request->input('email'),
+//                'UserPassword' => $request->input('password')
+//            )
+//        );
+//
+//        $opts = array('http' =>
+//            array(
+//                'method'  => 'POST',
+//                'header'  => 'Content-type: application/json',
+//                'content' => $postdata
+//            )
+//        );
+//
+//        $context = stream_context_create($opts);
+//
+//        $result = file_get_contents($url.'user/create', false, $context);
+// return $request;
     }
 
 //    public function getAllUsers()
@@ -53,18 +70,48 @@ class UserController extends Controller
 //        return $userDetails;
 //    }
 //
-//    public function Log(UserRequest $request)
-//    {
+    public function Log(UserRequest $request)
+    {
+//        //session_destroy();
 //        $email =  $request->input('email');
 //        $password = $request->input('password');
 //
-//        $userDetails = file_get_contents($this->serviceUri().'/user/findUser');
+//        $userDetails = file_get_contents($this->serviceUri().'/user/findUser/'.$email);
 //
 //        $userData = json_decode($userDetails);
 //
-//        echo $userData;
-//    }
+//        session_start();
 //
-    
+//        $_SESSION['email'] = $userData->UserEmail;
+//        $_SESSION['id'] = $userData->UserId;
+
+        return view('Home.addPoll');
+    }
+
+    public function  Create(UserRequest $req)
+    {
+        $url = str_replace(" ", "%20", $this->serviceUri());
+        $postdata = json_encode(
+            array(
+              'UserName' => $req->input('name'),
+                'UserEmail' => $req->input('email'),
+                'UserPassword' => $req->input('password')
+            )
+        );
+
+        $opts = array('http' =>
+            array(
+                'method'  => 'POST',
+                'header'  => 'Content-type: application/json',
+                'content' => $postdata
+           )
+        );
+
+        $context = stream_context_create($opts);
+
+        $result = file_get_contents($url.'/user/create', false, $context);
+    }
+
+
         
 }
